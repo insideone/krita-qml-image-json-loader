@@ -1,0 +1,32 @@
+{
+    "name": "krita-qml-image-json-loader",
+    "description": "Allows webpack to emit Rectangle object from qml-webpack-loader output from QML file exported from Krita. Optionally makes require() for each of Image.source property",
+    "version": "0.0.1",
+    "license": "MIT",
+    "author": "insideone <xim.nenko@gmail.com>",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "test": "npx jest --coverage",
+        "lint": "tslint \"./src/**.ts\" \"**/__tests__/**/*.ts\"",
+        "build": "tsc"
+    },
+    "engines": {
+        "node": ">=10.17"
+    },
+    "devDependencies": {
+        "@types/jest": "^25.2.1",
+        "@types/node": "^13.13.5",
+        "jest": "^25.5.4",
+        "ts-jest": "^25.5.0",
+        "tslint": "^6.1.2",
+        "typescript": "^3.8.3"
+    },
+    "dependencies": {
+        "loader-utils": "^2.0.0",
+        "path": "^0.12.7"
+    },
+    "files": [
+        "dist"
+    ]
+}
