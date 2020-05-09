@@ -1,11 +1,11 @@
-# krita-qml-image-json-loader
+# qml-images-rectangle-json-loader
 
 Allows webpack to emit `Rectangle` object from `qml-webpack-loader` output. Optionally makes `require()` for each of `Image.source` property.
 
 ## Installation & Usage
 
 ```bash
-npm i --save-dev krita-qml-image-json-loader qml-webpack-loader
+npm i --save-dev qml-images-rectangle-json-loader qml-webpack-loader
 ```
 
 **webpack.config.js**
@@ -17,7 +17,7 @@ module.exports = {
                 test: /\.qml$/,
                 use: [
                     {
-                        loader: 'krita-qml-image-json-loader',
+                        loader: 'qml-images-rectangle-json-loader',
                         options: { requireSources: true },
                     },
                     'qml-webpack-loader',

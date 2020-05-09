@@ -1,6 +1,6 @@
 {
-    "name": "krita-qml-image-json-loader",
-    "description": "Allows webpack to emit Rectangle object from qml-webpack-loader output from QML file exported from Krita. Optionally makes require() for each of Image.source property",
+    "name": "qml-images-rectangle-json-loader",
+    "description": "Allows webpack to emit Rectangle object from qml-webpack-loader output from QML file exported from Krita (for example). Optionally makes require() for each of Image.source property",
     "version": "0.0.1",
     "license": "MIT",
     "author": "insideone <xim.nenko@gmail.com>",
